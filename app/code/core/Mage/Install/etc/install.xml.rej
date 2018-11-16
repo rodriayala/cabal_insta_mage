@@ -1,0 +1,13 @@
+--- app/code/core/Mage/Install/etc/install.xml
++++ app/code/core/Mage/Install/etc/install.xml
+@@ -88,6 +88,10 @@
+                 <gd/>
+                 <soap/>
+                 <mbstring/>
++                <mcrypt>
++                    <openssl/>
++                    <mcrypt/>
++                </mcrypt>
+             </extensions>
+         </php>
+     </check>
